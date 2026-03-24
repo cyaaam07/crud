@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #fa4747;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #f2f2f2;
+}
+
+
+a {
+    color: #ff4c4c;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #ff1a1a;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #2c2c2c;
+    color: #ff4c4c;
+    font-weight: 600;
+}
+
+td {
+    border-top: 1px solid #2c2c2c;
+}
+
+tr:hover td {
+    background-color: #2a2a2a;
+}
+
+
+td a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    background-color: #ff4c4c;
+    color: #fff;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+td a:hover {
+    background-color: #ff1a1a;
+}
+
+
+a[href="create.php"] {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+a[href="create.php"]:hover {
+    background-color: #3e8e41;
+}
