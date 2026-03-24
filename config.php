@@ -1,9 +1,9 @@
 <?php
-// config.php
+
 $host = 'localhost';
 $dbname = 'music_db';
 $user = 'root';
-$pass = ''; // standaard XAMPP wachtwoord is leeg
+$pass = ''; 
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
